@@ -93,7 +93,9 @@ body {
   font-size: 0.9rem;
   font-family: "Figtree", sans-serif;
 }
-
+.illustration {
+  border-radius: 0.5rem;
+}
 .flex-container {
   background-color: hsl(0, 0%, 100%);
   display: flex;
@@ -130,4 +132,13 @@ p {
 
 .attribution {
   display: inline-flex;
+  width: 15%;
+}
+.cee {
+  padding: 10px;
+  border-radius: 100%;
+}
+.text {
+  display: inline;
+  padding: 15px 0;
 }

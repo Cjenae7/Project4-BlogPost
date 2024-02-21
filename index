@@ -23,7 +23,11 @@
   <body>
     <main>
       <div class="flex-container">
-        <img src="images/Cee.jpg" alt="Cee Picture" />
+        <img
+          class="illustration"
+          src="images/illustration-article.svg"
+          alt="Illustration Picture"
+        />
         <heading><h2>Learning</h2></heading>
         <h3>Published 21 Dec 2023</h3>
         <h1>HTML & CSS foundations</h1>
@@ -33,7 +37,8 @@
         </p>
         <div>
           <footer class="attribution">
-            <img src="images/Cee.jpg" alt="Cee Picture" /> C.S
+            <img class="cee" src="images/Cee.jpg" alt="Cee Picture" />
+            <span class="text">C.S</span>
           </footer>
         </div>
       </div>
